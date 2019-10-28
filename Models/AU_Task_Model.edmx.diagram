@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="e8824b90ff27413baa947a4f3b874e28" Name="Diagram1">
+        <EntityTypeShape EntityType="AU_TasksModel.AU_TASK" Width="1.5" PointX="3.125" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AU_TasksModel.DEPARTMENT" Width="1.5" PointX="7.75" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AU_TasksModel.PROJECT" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AU_TasksModel.STAFF_ATTENDENCE" Width="1.5" PointX="3.125" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AU_TasksModel.sysdiagrams" Width="1.5" PointX="7.75" PointY="2.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AU_TasksModel.TASK_DETAIL" Width="1.5" PointX="5" PointY="2" IsExpanded="true" />
+        <EntityTypeShape EntityType="AU_TasksModel.TASK_RELEASE_NOTE" Width="1.5" PointX="5.375" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AU_TasksModel.USERS" Width="1.5" PointX="0.75" PointY="2.875" IsExpanded="true" />
+        <AssociationConnector Association="AU_TasksModel.FK_AU_TASK_PROJECT" ManuallyRouted="false" />
+        <AssociationConnector Association="AU_TasksModel.FK_AU_TASK_USERS" ManuallyRouted="false" />
+        <AssociationConnector Association="AU_TasksModel.FK_TASK_DETAIL_AU_TASK" ManuallyRouted="false" />
+        <AssociationConnector Association="AU_TasksModel.FK_TASK_RELEASE_NOTE_AU_TASK" ManuallyRouted="false" />
+        <AssociationConnector Association="AU_TasksModel.FK_STAFF_ATTENDENCE_USERS" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

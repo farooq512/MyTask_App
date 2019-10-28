@@ -1,0 +1,8 @@
+/App_Data/
+/bin/
+/Content/
+/fonts/
+/obj/
+/Properties/
+Web.Debug
+Web.Release
